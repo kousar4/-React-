@@ -1,0 +1,49 @@
+.container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.cal-container {
+  display: flex;
+  flex-direction: column;
+}
+.heading {
+  color: white;
+  font-family: roboto;
+  font-size: 20px;
+  font-weight: 700;
+}
+.para {
+  color: white;
+  font-family: roboto;
+  font-size: 14px;
+}
+.data {
+  color: black;
+  font-family: roboto;
+  font-size: 14px;
+  outline: none;
+}
+.output-container {
+  margin: 30px;
+  background-color: white;
+  border-radius: 5px;
+}
+.letter {
+  color: #1d976c;
+  font-family: roboto;
+  font-size: 14px;
+}
+
+.pic-container {
+  width: 500px;
+  height: 500px;
+}
+.pic {
+  max-width: 500px;
+  max-height: 500px;
+}
